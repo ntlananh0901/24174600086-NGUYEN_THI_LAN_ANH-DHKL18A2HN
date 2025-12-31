@@ -1,0 +1,23 @@
+xml_content = '''<?xml version="1.0"?>
+<company id="101">
+  <name>GeeksForGeeks Company</name>
+  <staff>
+    <name>Amar Pandey</name>
+    <empid>1</empid>
+    <salary>8.1 LPA</salary>
+  </staff>
+  <staff>
+    <name>Akbar Khan</name>
+    <empid>2</empid>
+    <salary>6.5 LPA</salary>
+  </staff>
+  <staff>
+    <name>Anthony Walker</name>
+    <empid>3</empid>
+    <salary>3.2 LPA</salary>
+  </staff>
+</company>
+'''
+
+with open("sample.xml", "w", encoding="utf-8") as file:
+    file.write(xml_content)
